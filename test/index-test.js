@@ -95,7 +95,7 @@ describe('Handlebars Templates Lab', function() {
       })
     })
 
-    xdescribe('displayEditForm', function() {
+    describe('displayEditForm', function() {
       it('renders the form template with values pre-filled', function() {
         // load the new form and fill it out
         init()
